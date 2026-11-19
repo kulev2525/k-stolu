@@ -44,9 +44,10 @@ docs/              Требования, архитектура и провер�
 GitHub Actions проверяет оформление файлов через Prettier, ошибки пробелов Git и Python-файлы через Ruff. ESLint и проверка типов TypeScript подключаются вместе с интерфейсом.
 
 ```sh
-python -m pip install -r requirements-dev.txt
-python -m ruff check .
-python -m ruff format --check .
+python -m pip install -r backend/requirements-dev.txt
+python -m ruff check backend
+python -m ruff format --check backend
+python -m pytest backend/tests
 npx --yes prettier@3.6.2 --check .
 ```
 
