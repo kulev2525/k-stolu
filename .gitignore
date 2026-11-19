@@ -1,0 +1,45 @@
+# Dependencies and output
+node_modules/
+dist/
+build/
+coverage/
+htmlcov/
+playwright-report/
+test-results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+*.egg-info/
+.coverage*
+
+# Secrets and local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+*.log
+
+# Local editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.playwright-mcp/
+
+# Research source data
+private/
+interviews/
