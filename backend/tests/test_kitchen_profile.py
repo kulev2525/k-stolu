@@ -1,8 +1,7 @@
 import pytest
 
-from backend.domain.kitchen import KitchenProfile
-# Поправь путь под свой проект:
 from backend.domain.equipment_checker import EquipmentChecker
+from backend.domain.kitchen import KitchenProfile
 
 def test_valid_profile_to_equipment_counts():
     profile = KitchenProfile(burners=2, has_oven=True, pots=1, pans=0)
