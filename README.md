@@ -1,5 +1,7 @@
 # К столу
 
+[![Static checks](https://github.com/kulev2525/k-stolu/actions/workflows/quality.yml/badge.svg)](https://github.com/kulev2525/k-stolu/actions/workflows/quality.yml)
+
 Веб-помощник для одновременного приготовления 2–3 блюд. Общий план должен учитывать занятость человека, конфорок, духовки и посуды и помогать подать блюда примерно одновременно.
 
 ## Состояние проекта
