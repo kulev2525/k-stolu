@@ -1,0 +1,99 @@
+- id: buckwheat
+  name: Гречка с маслом
+  ingredients:
+    - Гречневая крупа, 150 г
+    - Вода, 300 мл
+    - Сливочное масло, 15 г
+    - Соль по вкусу
+  steps:
+    - id: rinse
+      name: Промыть гречку и переложить в кастрюлю
+      duration_seconds: 120
+      active: true
+      equipment: { pot: 1 }
+    - id: boil
+      name: Добавить воду и соль, довести до кипения
+      duration_seconds: 300
+      active: true
+      equipment: { burner: 1, pot: 1 }
+      depends_on: [rinse]
+    - id: simmer
+      name: Варить под крышкой на слабом огне до впитывания воды
+      duration_seconds: 900
+      active: false
+      equipment: { burner: 1, pot: 1 }
+      depends_on: [boil]
+    - id: finish
+      name: Снять с огня, добавить масло и перемешать
+      duration_seconds: 60
+      active: true
+      equipment: { pot: 1 }
+      depends_on: [simmer]
+
+- id: fried-zucchini
+  name: Жареные кабачки
+  ingredients:
+    - Кабачок, 300 г
+    - Растительное масло, 1 ст. л.
+    - Соль по вкусу
+  steps:
+    - id: slice
+      name: Нарезать кабачок кружками толщиной около 5 мм
+      duration_seconds: 180
+      active: true
+    - id: fry
+      name: Разогреть масло и обжарить кабачки с обеих сторон до золотистой корочки
+      duration_seconds: 480
+      active: true
+      equipment: { burner: 1, pan: 1 }
+      depends_on: [slice]
+    - id: season
+      name: Переложить кабачки на тарелку и посолить
+      duration_seconds: 60
+      active: true
+      depends_on: [fry]
+
+- id: roasted-potatoes
+  name: Запечённый картофель
+  ingredients:
+    - Картофель, 500 г
+    - Растительное масло, 1 ст. л.
+    - Соль по вкусу
+  steps:
+    - id: turn-on-oven
+      name: Включить духовку на 200 °C
+      duration_seconds: 30
+      active: true
+      equipment: { oven: 1 }
+      temperature_celsius: 200
+    - id: preheat
+      name: Дождаться разогрева духовки
+      duration_seconds: 600
+      active: false
+      equipment: { oven: 1 }
+      temperature_celsius: 200
+      depends_on: [turn-on-oven]
+    - id: prepare
+      name: Вымыть картофель, нарезать дольками, смешать с маслом и солью
+      duration_seconds: 360
+      active: true
+    - id: load-oven
+      name: Разложить дольки на противне в один слой и поставить в духовку
+      duration_seconds: 120
+      active: true
+      equipment: { oven: 1 }
+      temperature_celsius: 200
+      depends_on: [preheat, prepare]
+    - id: roast
+      name: Запекать картофель до мягкости
+      duration_seconds: 1800
+      active: false
+      equipment: { oven: 1 }
+      temperature_celsius: 200
+      depends_on: [load-oven]
+    - id: finish
+      name: Проверить мягкость картофеля вилкой, вынуть противень и выключить духовку
+      duration_seconds: 60
+      active: true
+      equipment: { oven: 1 }
+      depends_on: [roast]
