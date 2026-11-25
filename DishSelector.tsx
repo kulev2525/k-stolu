@@ -23,9 +23,9 @@ export default function DishSelector({
   const filteredDishes = useMemo(
     () =>
       dishes.filter((dish) =>
-        dish.name.toLowerCase().includes(search.trim().toLowerCase())
+        dish.name.toLowerCase().includes(search.trim().toLowerCase()),
       ),
-    [dishes, search]
+    [dishes, search],
   );
 
   const toggleDish = (dish: Dish) => {
