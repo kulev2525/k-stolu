@@ -1,0 +1,110 @@
+.dish-selector {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 14px;
+  background: #fff;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+.dish-selector__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.dish-selector__header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.dish-selector__header span {
+  color: #666;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.dish-selector__search {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.dish-selector__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dish-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.dish-card:hover {
+  border-color: #999;
+}
+
+.dish-card--selected {
+  background: #f0f7ff;
+  border-color: #3984d6;
+}
+
+.dish-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dish-card__info strong {
+  font-size: 16px;
+}
+
+.dish-card__info span {
+  color: #666;
+  font-size: 14px;
+}
+
+.dish-card__info small {
+  color: #888;
+  font-size: 12px;
+}
+
+.dish-card input {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  accent-color: #3984d6;
+  cursor: pointer;
+}
+
+.dish-selector__empty {
+  padding: 20px;
+  color: #888;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .dish-selector {
+    padding: 14px;
+  }
+
+  .dish-selector__header h2 {
+    font-size: 19px;
+  }
+}
