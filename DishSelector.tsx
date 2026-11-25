@@ -13,10 +13,7 @@ interface DishSelectorProps {
   onChange?: (selectedDishes: Dish[]) => void;
 }
 
-export default function DishSelector({
-  dishes,
-  onChange,
-}: DishSelectorProps) {
+export default function DishSelector({ dishes, onChange }: DishSelectorProps) {
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
   const [search, setSearch] = useState("");
 

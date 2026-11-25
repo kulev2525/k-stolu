@@ -85,7 +85,9 @@ export function DishSelector({
         </ul>
       ) : (
         <p className="dish-selector__hint" role="status">
-          {dishes.length === 0 ? "В каталоге пока нет блюд." : "Блюда не найдены."}
+          {dishes.length === 0
+            ? "В каталоге пока нет блюд."
+            : "Блюда не найдены."}
         </p>
       )}
     </fieldset>
