@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net"><diagram id="kt2-08" name="Создание плана">
+    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1120" pageHeight="760" shadow="0" background="#F6F7F2">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="item-3" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="48" y="624" width="1024" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="item-4" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="161" as="sourcePoint" />
+            <mxPoint x="1072" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-5" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="713" as="sourcePoint" />
+            <mxPoint x="1072" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-6" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#B4C5BD;strokeWidth=1;dashed=1;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="244" as="sourcePoint" />
+            <mxPoint x="170" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-7" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#B4C5BD;strokeWidth=1;dashed=1;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="244" as="sourcePoint" />
+            <mxPoint x="430" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-8" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#B4C5BD;strokeWidth=1;dashed=1;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="244" as="sourcePoint" />
+            <mxPoint x="690" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-9" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#B4C5BD;strokeWidth=1;dashed=1;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="244" as="sourcePoint" />
+            <mxPoint x="950" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-10" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.35;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="281" as="sourcePoint" />
+            <mxPoint x="430" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-11" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.35;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="327" as="sourcePoint" />
+            <mxPoint x="690" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-12" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.35;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="374" as="sourcePoint" />
+            <mxPoint x="950" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-13" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#92462E;strokeWidth=1.35;dashed=1;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="419" as="sourcePoint" />
+            <mxPoint x="690" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-14" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.35;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="452" as="sourcePoint" />
+            <mxPoint x="690" y="487" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="813" y="452" />
+              <mxPoint x="813" y="487" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-15" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#92462E;strokeWidth=1.35;dashed=1;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="526" as="sourcePoint" />
+            <mxPoint x="430" y="526" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-16" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#92462E;strokeWidth=1.35;dashed=1;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="575" as="sourcePoint" />
+            <mxPoint x="170" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-lifeline-0" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;Кулинар&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="74.0" y="192" width="192" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n-lifeline-1" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#FFFFFF;font-weight:700;&quot;&gt;Браузер&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#153E33;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="334.0" y="192" width="192" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n-lifeline-2" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;FastAPI&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="594.0" y="192" width="192" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n-lifeline-3" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;Источник каталога&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="854.0" y="192" width="192" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="item-21" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#92462E;font-weight:700;&quot;&gt;ДИНАМИКА  /  СЦЕНАРИЙ 1&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="30" width="1024" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="item-22" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:37px;color:#153E33;font-weight:700;&quot;&gt;Создание плана ужина&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="54" width="1024" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="item-23" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:16px;color:#4A6158;font-weight:400;&quot;&gt;Планирование запускается по действию пользователя. Серверу передаются 2–3 блюда и профиль доступной кухни.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="111" width="1024" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="item-24" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#4A6158;font-weight:400;&quot;&gt;Источники проекта: frontend/src/{App,plans}.ts(x) · backend/main.py · backend/plan_api.py · backend/domain/planning.py&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="722" width="955" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="item-25" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:13px;color:#153E33;font-weight:700;&quot;&gt;08&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="1024" y="726" width="48" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="item-26" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:15px;color:#153E33;font-weight:700;&quot;&gt;Своё блюдо&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="64" y="635" width="992" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="item-27" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;CustomDish.to_recipe() переводит форму в шаги подготовки, готовки и подачи. Если все блюда свои, каталог в этом запросе не читается.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="64" y="655" width="992" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="item-28" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F6F7F2;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="171" y="259" width="258" height="16.92" as="geometry" />
+        </mxCell>
+        <mxCell id="item-29" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:11.6px;color:#4A6158;font-weight:400;&quot;&gt;1. «Составить план»&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="174" y="261" width="252" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="item-30" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F6F7F2;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="431" y="305" width="258" height="16.92" as="geometry" />
+        </mxCell>
+        <mxCell id="item-31" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:11.6px;color:#4A6158;font-weight:400;&quot;&gt;2. POST /api/plans · JSON&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="434" y="307" width="252" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="item-32" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F6F7F2;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="691" y="352" width="258" height="16.92" as="geometry" />
+        </mxCell>
+        <mxCell id="item-33" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:11.6px;color:#4A6158;font-weight:400;&quot;&gt;3. Читает каталог (если есть блюда из него)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="694" y="354" width="252" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="item-34" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F6F7F2;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="691" y="397" width="258" height="16.92" as="geometry" />
+        </mxCell>
+        <mxCell id="item-35" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:11.6px;color:#4A6158;font-weight:400;&quot;&gt;4. Рецепты со всеми шагами&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="694" y="399" width="252" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="item-36" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:11.6px;color:#4A6158;font-weight:400;&quot;&gt;5. Выбор, расчёт и проверка&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="701" y="432" width="199" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="item-37" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F6F7F2;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="431" y="504" width="258" height="16.92" as="geometry" />
+        </mxCell>
+        <mxCell id="item-38" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:11.6px;color:#4A6158;font-weight:400;&quot;&gt;6. PlanResponse · шаги, время и подсказки&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="434" y="506" width="252" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="item-39" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F6F7F2;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="171" y="553" width="258" height="16.92" as="geometry" />
+        </mxCell>
+        <mxCell id="item-40" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:11.6px;color:#4A6158;font-weight:400;&quot;&gt;7. Показывает шкалу и время подачи&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="174" y="555" width="252" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>

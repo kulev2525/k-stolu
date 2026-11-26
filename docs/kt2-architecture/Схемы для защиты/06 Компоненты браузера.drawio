@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net"><diagram id="kt2-05" name="C3 Браузер">
+    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1120" pageHeight="760" shadow="0" background="#F6F7F2">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="item-3" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#C3D2C9;dashed=1;dashPattern=5 4;">
+          <mxGeometry x="48" y="184" width="1024" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="item-4" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="161" as="sourcePoint" />
+            <mxPoint x="1072" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-5" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="713" as="sourcePoint" />
+            <mxPoint x="1072" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-6" edge="1" parent="1" source="n-app" target="n-cataloghook" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.115;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-7" edge="1" parent="1" source="n-app" target="n-planclient" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.372;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-8" edge="1" parent="1" source="n-app" target="n-cookinghook" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.628;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-9" edge="1" parent="1" source="n-app" target="n-editors" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.884;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-10" edge="1" parent="1" source="n-cookinghook" target="n-planclient" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-11" edge="1" parent="1" source="n-cookinghook" target="n-session" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-12" edge="1" parent="1" source="n-editors" target="n-local" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-13" edge="1" parent="1" source="n-session" target="n-local" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-app" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:21px;color:#FFFFFF;font-weight:700;&quot;&gt;App.tsx · экраны и действия&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#E1EDE8;font-weight:400;&quot;&gt;Каталог и «Своё блюдо»  →  «План ужина»  →  «Сейчас»  →  Итог. «Моя кухня» доступна из шапки.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#153E33;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="70" y="223" width="980" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="n-cataloghook" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;useCatalog.ts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;GET /api/recipes. Поиск, отмена прошлого запроса, повтор.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="70" y="382" width="226" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="n-planclient" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;plans.ts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;createPlan / recalculatePlan.&lt;br&gt;POST к FastAPI и проверка структуры ответа.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="321" y="382" width="226" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="n-cookinghook" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;useCooking.ts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;Действия, сохранение и запрос пересчёта. Отбрасывает устаревшие ответы.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="572" y="382" width="226" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="n-editors" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:16.5px;color:#153E33;font-weight:700;&quot;&gt;Профиль и свои блюда&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;KitchenSettings.tsx,&lt;br&gt;customDishes.ts и CustomDishForm.tsx.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="823" y="382" width="227" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="n-session" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;cookingSession.ts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:12.5px;color:#4A6158;font-weight:400;&quot;&gt;Снимок v1, таймеры, прогресс&lt;br&gt;и переходы состояния.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="572" y="548" width="226" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="n-local" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;localStorage&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:12.5px;color:#4A6158;font-weight:400;&quot;&gt;Сессия, настройки кухни&lt;br&gt;и шаблоны своих блюд.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E4EDF1;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="823" y="548" width="227" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="item-21" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#92462E;font-weight:700;&quot;&gt;C4  /  УРОВЕНЬ 3&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="30" width="1024" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="item-22" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:37px;color:#153E33;font-weight:700;&quot;&gt;Компоненты веб-приложения&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="54" width="1024" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="item-23" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:16px;color:#4A6158;font-weight:400;&quot;&gt;App хранит выбор и управляет экранами. Хуки отвечают за запросы и состояние сессии, таймеры отсчитываются в браузере.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="111" width="1024" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="item-24" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#4A6158;font-weight:400;&quot;&gt;Источники проекта: frontend/src/App.tsx · useCatalog.ts · plans.ts · useCooking.ts · cookingSession.ts · KitchenSettings.tsx&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="722" width="955" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="item-25" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:13px;color:#153E33;font-weight:700;&quot;&gt;05&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="1024" y="726" width="48" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="item-26" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:700;&quot;&gt;КОНТЕЙНЕР REACT / TYPESCRIPT&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="63" y="195" width="994" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="item-27" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;CookingNow показывает «Готово», «+2 мин», «+5 мин» и пассивные процессы. Ход сессии восстанавливается в том же браузере.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="49" y="675" width="1024" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="item-28" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;поиск&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="187.7" y="336" width="97" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-29" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;создаёт план&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="439.56" y="336" width="97" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-30" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;ведёт готовку&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="690.44" y="336" width="97" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-31" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;настройки&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="941.32" y="336" width="97" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-32" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;ведёт сессию&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="689" y="509" width="104" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-33" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;читает и сохраняет&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="941" y="509" width="117" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>

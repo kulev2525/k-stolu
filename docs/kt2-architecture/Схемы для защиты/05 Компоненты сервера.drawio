@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net"><diagram id="kt2-04" name="C3 Сервер">
+    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1120" pageHeight="760" shadow="0" background="#F6F7F2">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="item-3" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#C3D2C9;dashed=1;dashPattern=5 4;">
+          <mxGeometry x="267" y="194" width="805" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="item-4" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="285" y="580" width="764" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="item-5" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="161" as="sourcePoint" />
+            <mxPoint x="1072" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-6" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="713" as="sourcePoint" />
+            <mxPoint x="1072" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-7" edge="1" parent="1" source="n-browser" target="n-router" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.64;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-8" edge="1" parent="1" source="n-router" target="n-catalog" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.156;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-9" edge="1" parent="1" source="n-router" target="n-contracts" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.494;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-10" edge="1" parent="1" source="n-router" target="n-domain" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.838;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-11" edge="1" parent="1" source="n-catalog" target="n-source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-12" edge="1" parent="1" source="n-contracts" target="n-domain" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-browser" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:19px;color:#153E33;font-weight:700;&quot;&gt;Веб-клиент&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;HTTP + JSON&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="48" y="251" width="183" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="n-router" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:21px;color:#FFFFFF;font-weight:700;&quot;&gt;Обработчики API · main.py&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#E1EDE8;font-weight:400;&quot;&gt;list_recipes(), create_plan(), recalculate_plan(). Возвращают сводку каталога, PlanResponse или сообщение об ошибке.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#153E33;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="285" y="233" width="764" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="n-source" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:19px;color:#153E33;font-weight:700;&quot;&gt;Источники&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;Supabase REST&lt;br&gt;или локальный YAML&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E4EDF1;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="48" y="422" width="183" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="n-catalog" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:19px;color:#153E33;font-weight:700;&quot;&gt;Адаптер каталога&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;catalog_recipes() читает рецепты, затем validate_catalog() проверяет данные.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="285" y="422" width="239" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="n-contracts" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;DTO и преобразования&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;CreatePlanRequest,&lt;br&gt;RecalculatePlanRequest,&lt;br&gt;PlanResponse.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="547" y="422" width="230" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="n-domain" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:18px;color:#153E33;font-weight:700;&quot;&gt;Домен планирования&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13.5px;color:#4A6158;font-weight:400;&quot;&gt;PlanningProblem, Scheduler,&lt;br&gt;Recalculator и PlanValidator.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="801" y="422" width="248" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="item-19" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#92462E;font-weight:700;&quot;&gt;C4  /  УРОВЕНЬ 3&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="30" width="1024" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="item-20" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:37px;color:#153E33;font-weight:700;&quot;&gt;Компоненты FastAPI&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="54" width="1024" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="item-21" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:16px;color:#4A6158;font-weight:400;&quot;&gt;Маршруты связывают проверку входа, чтение каталога и расчёт. Ядро зависит от моделей рецептов и оборудования.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="111" width="1024" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="item-22" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#4A6158;font-weight:400;&quot;&gt;Источники проекта: backend/main.py · backend/plan_api.py · backend/domain/{planning,recipes,equipment}.py&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="722" width="955" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="item-23" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:13px;color:#153E33;font-weight:700;&quot;&gt;04&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="1024" y="726" width="48" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="item-24" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:700;&quot;&gt;КОНТЕЙНЕР FASTAPI&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="282" y="205" width="775" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="item-25" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:15px;color:#153E33;font-weight:700;&quot;&gt;Связь DTO с доменом&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="301" y="591" width="732" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="item-26" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;Формы запроса создают Recipe и Progress. PlanResponse.from_plan() преобразует доменный Plan в контракт API.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="301" y="611" width="732" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="item-27" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;каталог и выбор по id&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="413" y="369" width="146" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-28" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;проверка / ответ&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="667" y="369" width="130" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-29" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;план или пересчёт&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="934" y="369" width="128" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>

@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net"><diagram id="kt2-03" name="C2 Контейнеры">
+    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1120" pageHeight="760" shadow="0" background="#F6F7F2">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="item-3" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#C3D2C9;dashed=1;dashPattern=5 4;">
+          <mxGeometry x="48" y="243" width="1024" height="352" as="geometry" />
+        </mxCell>
+        <mxCell id="item-4" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="48" y="620" width="1024" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="item-5" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="161" as="sourcePoint" />
+            <mxPoint x="1072" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-6" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="713" as="sourcePoint" />
+            <mxPoint x="1072" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-7" edge="1" parent="1" source="n-cook" target="n-web" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-8" edge="1" parent="1" source="n-web" target="n-api" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-9" edge="1" parent="1" source="n-api" target="n-db" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-10" edge="1" parent="1" source="n-web" target="n-store" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-11" edge="1" parent="1" source="n-api" target="n-yaml" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=1;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-cook" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;Домашний кулинар&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="68" y="179" width="270" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n-web" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:7px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#E1EDE8;font-weight:700;&quot;&gt;КОНТЕЙНЕР  /  REACT + TS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:22px;color:#FFFFFF;font-weight:700;&quot;&gt;Веб-приложение&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#E1EDE8;font-weight:400;&quot;&gt;Выбор, настройки кухни, шкала плана, текущий шаг и таймеры.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#153E33;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="68" y="281" width="270" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="n-api" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:7px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#E1EDE8;font-weight:700;&quot;&gt;КОНТЕЙНЕР  /  FASTAPI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:22px;color:#FFFFFF;font-weight:700;&quot;&gt;API планирования&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#E1EDE8;font-weight:400;&quot;&gt;Выдаёт каталог, строит и проверяет план, пересчитывает оставшиеся шаги.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#153E33;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="430" y="281" width="261" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="n-db" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:7px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#4A6158;font-weight:700;&quot;&gt;ДАННЫЕ  /  POSTGRESQL В SUPABASE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:21px;color:#153E33;font-weight:700;&quot;&gt;Каталог рецептов&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;Рецепты и шаги с зависимостями, временем, ресурсами и температурой.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E4EDF1;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="790" y="281" width="262" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="n-store" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:18px;color:#153E33;font-weight:700;&quot;&gt;localStorage&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13.5px;color:#4A6158;font-weight:400;&quot;&gt;Профиль кухни, свои блюда,&lt;br&gt;снимок готовки и локальный ответ.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="68" y="461" width="270" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n-yaml" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17px;color:#153E33;font-weight:700;&quot;&gt;recipes/catalog.yaml&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13.5px;color:#4A6158;font-weight:400;&quot;&gt;Локальный источник каталога,&lt;br&gt;когда база не настроена.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E8EFE8;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="430" y="461" width="261" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="item-18" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#92462E;font-weight:700;&quot;&gt;C4  /  УРОВЕНЬ 2&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="30" width="1024" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="item-19" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:37px;color:#153E33;font-weight:700;&quot;&gt;Контейнеры и хранилища&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="54" width="1024" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="item-20" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:16px;color:#4A6158;font-weight:400;&quot;&gt;Браузер отвечает за взаимодействие и ход текущего ужина. FastAPI рассчитывает расписание. PostgreSQL хранит каталог.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="111" width="1024" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="item-21" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#4A6158;font-weight:400;&quot;&gt;Источники проекта: backend/main.py · frontend/src/plans.ts · frontend/src/useCatalog.ts · supabase/migrations&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="722" width="955" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="item-22" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:13px;color:#153E33;font-weight:700;&quot;&gt;03&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="1024" y="726" width="48" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="item-23" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:700;&quot;&gt;ГРАНИЦА СИСТЕМЫ «К СТОЛУ»&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="430" y="254" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="item-24" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:14px;color:#153E33;font-weight:700;&quot;&gt;Настроенный режим&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="791" y="464" width="251" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="item-25" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;FastAPI запрашивает представление public.recipe_catalog через REST API Supabase. Сбой настроенного источника даёт 503.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="791" y="490" width="248" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="item-26" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:15px;color:#153E33;font-weight:700;&quot;&gt;Контракты браузера&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="64" y="631" width="992" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="item-27" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;GET /api/recipes?q=… · POST /api/plans · POST /api/plans/recalc. Пересчёт использует снимок рецептов из запроса.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="64" y="651" width="992" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="item-28" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;открывает в браузере&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="209" y="232" width="164" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-29" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;HTTP / JSON&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="340" y="329" width="89" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-30" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;REST / JSON&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="694" y="329" width="95" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-31" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;читает и сохраняет&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="209" y="434" width="139" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-32" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;читает локально&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="569" y="434" width="131" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>

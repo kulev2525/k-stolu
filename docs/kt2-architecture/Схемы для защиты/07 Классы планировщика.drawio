@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net"><diagram id="kt2-06" name="C4 Код планирования">
+    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1120" pageHeight="760" shadow="0" background="#F6F7F2">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="item-3" vertex="1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=none;dashed=0;dashPattern=5 4;">
+          <mxGeometry x="48" y="630" width="1024" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="item-4" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="161" as="sourcePoint" />
+            <mxPoint x="1072" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-5" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=none;endFill=1;endSize=7;strokeColor=#C3D2C9;strokeWidth=1;dashed=0;dashPattern=4 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="713" as="sourcePoint" />
+            <mxPoint x="1072" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-6" edge="1" parent="1" source="n-recalc" target="n-scheduler" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-7" edge="1" parent="1" source="n-scheduler" target="n-validator" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-8" edge="1" parent="1" source="n-recalc" target="n-validator" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="161.5" y="181" />
+              <mxPoint x="693.5" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-9" edge="1" parent="1" source="n-scheduler" target="n-plan" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.82;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500.14" y="345" />
+              <mxPoint x="959" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="item-10" edge="1" parent="1" source="n-recalc" target="n-time" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-11" edge="1" parent="1" source="n-scheduler" target="n-problem" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-12" edge="1" parent="1" source="n-problem" target="n-recipe" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="item-13" edge="1" parent="1" source="n-problem" target="n-equipment" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#153E33;strokeWidth=1.25;dashed=0;dashPattern=4 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427.5" y="598" />
+              <mxPoint x="959" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-recalc" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:19px;color:#FFFFFF;font-weight:700;&quot;&gt;Recalculator&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13.1px;color:#E1EDE8;font-weight:400;&quot;&gt;recalc(problem, progress, now)&lt;br&gt;Фиксирует фактические интервалы.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#153E33;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="48" y="206" width="227" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="n-scheduler" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:20px;color:#FFFFFF;font-weight:700;&quot;&gt;Scheduler&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13.1px;color:#E1EDE8;font-weight:400;&quot;&gt;build(problem, now, fixed)&lt;br&gt;Перебирает порядки и вызывает _place().&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#153E33;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="314" y="206" width="227" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="n-validator" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:20px;color:#153E33;font-weight:700;&quot;&gt;PlanValidator&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13.1px;color:#4A6158;font-weight:400;&quot;&gt;check() проверяет план.&lt;br&gt;check_history() — факты.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="580" y="206" width="227" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="n-plan" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:20px;color:#153E33;font-weight:700;&quot;&gt;Plan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13.1px;color:#4A6158;font-weight:400;&quot;&gt;intervals: StepKey → Interval&lt;br&gt;startable: доступные шаги&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E4EDF1;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="846" y="206" width="226" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="n-time" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:18px;color:#153E33;font-weight:700;&quot;&gt;Progress / Interval&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;Progress: start, due, completed.&lt;br&gt;Interval: start, end.&lt;br&gt;StepKey: (recipe_id, step_id).&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E4EDF1;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="48" y="431" width="227" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="n-problem" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:18px;color:#153E33;font-weight:700;&quot;&gt;PlanningProblem&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;steps, dependencies, capacity.&lt;br&gt;ResourceUse задаёт ресурс,&lt;br&gt;количество и цепочку шагов.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DAEBE0;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="314" y="431" width="227" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="n-recipe" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:18px;color:#153E33;font-weight:700;&quot;&gt;Recipe / Step&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;Recipe содержит список Step.&lt;br&gt;У Step есть длительность, active, оборудование и предшественники.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="580" y="431" width="227" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="n-equipment" vertex="1" parent="1" value="&lt;div style=&quot;margin-bottom:6px&quot;&gt;&lt;span style=&quot;font-family:Arial;font-size:17.5px;color:#153E33;font-weight:700;&quot;&gt;EquipmentChecker&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family:Arial;font-size:13px;color:#4A6158;font-weight:400;&quot;&gt;check(required, available)&lt;br&gt;Возвращает недостающее количество по типам.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C3D2C9;align=left;verticalAlign=top;spacing=0;spacingTop=12;spacingLeft=15;spacingRight=15;">
+          <mxGeometry x="846" y="431" width="226" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="item-22" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#92462E;font-weight:700;&quot;&gt;C4  /  УРОВЕНЬ 4&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="30" width="1024" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="item-23" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:37px;color:#153E33;font-weight:700;&quot;&gt;Код ядра планирования&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="54" width="1024" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="item-24" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:16px;color:#4A6158;font-weight:400;&quot;&gt;Ключевые классы и вызовы компонента планирования. Граф зависимостей рецепта и ресурсы определяют допустимость каждого шага.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="111" width="1024" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="item-25" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:10.5px;color:#4A6158;font-weight:400;&quot;&gt;Источники проекта: backend/domain/planning.py · backend/domain/recipes.py · backend/domain/equipment.py · backend/plan_api.py&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="48" y="722" width="955" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="item-26" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:13px;color:#153E33;font-weight:700;&quot;&gt;06&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="1024" y="726" width="48" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="item-27" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:15px;color:#153E33;font-weight:700;&quot;&gt;Как выбирается план&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="64" y="641" width="992" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="item-28" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:14px;color:#4A6158;font-weight:400;&quot;&gt;Среди проверенных кандидатов сначала минимизируется разрыв готовности блюд, затем общая длительность.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="64" y="661" width="992" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="item-29" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;проверяет историю&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="354" y="166" width="168" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-30" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;возвращает допустимый план&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="813" y="350" width="245" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-31" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;читает факты&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="169" y="372" width="104" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-32" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;использует ограничения&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="428" y="375" width="179" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="item-33" vertex="1" parent="1" value="&lt;span style=&quot;font-family:Arial;font-size:12px;color:#4A6158;font-weight:400;&quot;&gt;проверяет наличие оборудования&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;">
+          <mxGeometry x="562" y="577" width="240" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>
